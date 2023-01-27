@@ -3,8 +3,8 @@ function Wrong() {
 };
 
 function Right() {
-        let x = document.getElementById("yes");
-        if (x.style.display == "none") {
+        let x = document.getElementById("raa");
+        if (x.style.display === "none") {
           x.style.display = "block";
         } else {
           x.style.display = "block";
